@@ -1,0 +1,174 @@
+* {margin:0; padding:0;}
+
+/* ---------------------- (S) main ---------------------- */
+
+.scrollContainer .showcase header #logo {
+    width:900px;
+    height:750px;
+    position:absolute;
+    overflow:hidden;
+    object-fit:cover;
+}
+
+.scrollContainer .showcase video {
+    width:100vw;
+    height: 100vh;
+    object-fit:cover;
+}
+
+/* ---------------------- (E) main ---------------------- */
+
+/* ---------------------- (S) intro ---------------------- */
+
+
+.scrollContainer .intro {
+    width:100vw;
+    height:100vh;
+}
+
+.scrollContainer .intro #intro{
+    width:400px;
+    height:600px;
+    margin:100px;
+    float:left;
+}
+
+.scrollContainer .intro h1 {
+    font: normal 60px/1 'Gowun Batang';
+    text-align:left;
+    justify-content:left;
+    padding-top: 100px;
+    padding-right:200px;
+}
+
+.scrollContainer .intro h4 {
+    font: normal 20px/1 'Gowun Batang';
+    padding-top:50px;
+    padding-right:120px;
+    line-height:50px;
+}
+
+/* ---------------------- (E) intro ---------------------- */
+
+/* ---------------------- (S) about ---------------------- */
+
+.scrollContainer .about {
+    width:100vw;
+    height:100vh;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+.scrollContainer .about h2 {
+    color:white;
+    font: normal 60px/1 'Gowun Batang';
+    padding:100px;
+    border-bottom: solid 2px;
+}
+
+.scrollContainer .about #about-text{
+    color:white;
+    font: normal 20px/1 'Gowun Batang';
+    line-height: 30px;
+    margin:84px;
+}
+
+/* ---------------------- (E) about ---------------------- */
+
+/* ---------------------- (S) tutorial ---------------------- */
+
+.scrollContainer .tutorial {
+    width:100vw;
+    height:100vh;
+
+}
+
+.scrollContainer .tutorial #tutorial-photo {
+    width:400px;
+    float:right;
+    margin: 100px;
+    margin-top:110px;
+}
+
+.scrollContainer .tutorial #tutorial-heading {
+    font: normal 60px/1 'Gowun Batang';
+    padding:100px;
+}
+
+.scrollContainer .tutorial #tutorial-text {
+    font: normal 20px/1 'Gowun Batang';
+    margin-left:100px;
+    line-height:40px;
+}
+
+/* ---------------------- (E) tutorial ---------------------- */
+
+/* ---------------------- (S) footer ---------------------- */
+
+.scrollContainer .footer {
+    width:100vw;
+    height:40vh;
+}
+
+.scrollContainer .footer #logo2 {
+    width:130px;
+    height:130px;
+    margin:100px;
+    float:left;
+    justify-content:left;
+}
+
+.scrollContainer .footer ul {
+    float:left;
+    list-style:none;
+    margin-left:50px;
+    margin-top:40px;
+}
+
+.scrollContainer .footer ul li {
+    margin:30px;
+    font: normal 15px/1 'Gowun Batang';
+}
+
+.scrollContainer .footer ul a{
+    text-decoration:none;
+    color:black;
+    font: normal 15px/1 'Gowun Batang';
+}
+
+.scrollContainer .footer ul #menu {
+    font: bold 20px/1 'Gowun Batang';
+}
+
+.scrollContainer .footer span a {
+    text-decoration:none;
+    color:black;
+}
+
+.scrollContainer .footer span a i {
+    margin:5px;
+    margin-top:140px;
+    justify-content:center;
+    text-align:center;
+    margin-left:90px;
+}
+
+/* ---------------------- (E) footer ---------------------- */
+
+/* ---------------------- (S) copyright ---------------------- */
+
+.scrollContainer .copyright {
+    width:100vw;
+    height:5vh;
+}
+
+.scrollContainer .copyright h6 {
+    color:gray;
+    font: normal 15px/1 'Gowun Batang';
+    text-align:center;
+    justify-content:center;
+    padding:30px;
+    border-top: solid 1px lightgray;
+}
+
+/* ---------------------- (E) copyright ---------------------- */
